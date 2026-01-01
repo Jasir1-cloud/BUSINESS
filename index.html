@@ -32,35 +32,35 @@
 <div class="menu-grid">
 
     <div class="item">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsldDpiDcdcAh_Nh7PzCDp8T-34Bcod6LEyQ&s">
         <h4>Home Deep Cleaning</h4>
         <p>₹2500</p>
         <button onclick="addToCart('Home Deep Cleaning',2500)">Book</button>
     </div>
 
     <div class="item">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiYxYAb7xZqxWs3ZQmEMAqYyYwDv4OR4CsA&s">
         <h4>Office Cleaning</h4>
         <p>₹3000</p>
         <button onclick="addToCart('Office Cleaning',3000)">Book</button>
     </div>
 
     <div class="item">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrtbHLG1lmaj1pFwaA6jMfudCDLOsoknqbHw&s">
         <h4>Kitchen Cleaning</h4>
         <p>₹1200</p>
         <button onclick="addToCart('Kitchen Cleaning',1200)">Book</button>
     </div>
 
     <div class="item">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDs1bYCDYHnT40D4augZjBg1xBjmW1_1ZtQ&s">
         <h4>Bathroom Cleaning</h4>
         <p>₹800</p>
         <button onclick="addToCart('Bathroom Cleaning',800)">Book</button>
     </div>
 
     <div class="item">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80">
+        <img src="https://jamesbonddrycleaners.com/wp-content/uploads/2025/04/sofa1.jpg">
         <h4>Sofa & Carpet Cleaning</h4>
         <p>₹1500</p>
         <button onclick="addToCart('Sofa & Carpet Cleaning',1500)">Book</button>
@@ -90,8 +90,11 @@
 
 <section id="feedback" class="feedback">
 <h2>Customer Feedback</h2>
-<form onsubmit="return submitFeedback()">
+
+<form onsubmit="return validateFeedback()">
     <input type="text" id="fbName" placeholder="Your Name" required>
+    <input type="email" id="fbEmail" placeholder="Your Email" required>
+    <input type="text" id="fbMobile" placeholder="Mobile Number" required>
     <textarea id="fbMsg" placeholder="Your Feedback" required></textarea>
     <button type="submit">Submit & Download</button>
 </form>
@@ -102,4 +105,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
